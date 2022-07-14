@@ -1,3 +1,10 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    border-bottom: solid 0.1px black;
 }
