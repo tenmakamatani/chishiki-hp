@@ -1,10 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 header {
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    border-bottom: solid 0.1px black;
+  width: 100%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  border-bottom: solid 0.1px black;
 }
+
+header .logo-wrapper {
+  width: 25%;
+  padding-left: 10px;
+}
+
+header .logo-wrapper .logo {
+  width: 100%;
+}
+
+header .link-list-wrapper {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .link-list-wrapper .link-wrapper {
+  vertical-align: center;
+  margin-left: 30px;
+}
+
+header .link-list-wrapper .link-wrapper .link {
+  font-size: 20;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
